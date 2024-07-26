@@ -5,6 +5,7 @@ import cors from 'cors';
 
 const app = express();
 const { PORT, BACKEND_URL, CORS_ORIGIN, DATA_FILE } = process.env;
+app.use(express.json());
 
 app.use(cors({ CORS_ORIGIN }));
 
@@ -23,6 +24,7 @@ const writeData = (data) => {
 };
 
 app.post('/submit-profile', (req, res) => {
+    console.log(req.body);
     const data = readData();
     const profileId = Math.floor(Math.random() * 1000000);
     const newStatements = req.body.statements.map((text, index) => ({
@@ -32,7 +34,7 @@ app.post('/submit-profile', (req, res) => {
     }));
     data.profiles.push({ ...req.body, id: profileId, statements: newStatements });
     writeData(data);
-    res.sendStatus(200);
+    res.sendStatus(201); //Content created!
 });
 
 app.get('/profiles', (req, res) => {

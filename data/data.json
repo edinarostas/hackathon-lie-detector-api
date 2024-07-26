@@ -1,70 +1,76 @@
 {
-    "profiles": [
+  "profiles": [
+    {
+      "avatar": {
+        "Avatar": "/src/assets/image3.png"
+      },
+      "name": "Edina",
+      "statements": [
         {
-            "id": 1,
-            "avatar": "../assets/images/gamer.png",
-            "name": "Alice",
-            "statements": [
-                {
-                    "id": 1,
-                    "statement1": "I once met a celebrity.",
-                    "vote": 0
-                },
-                {
-                    "id": 2,
-                    "statement2": "I have been skydiving.",
-                    "vote": 0
-                },
-                {
-                    "id": 3,
-                    "statement3": "I have a pet dragon.",
-                    "vote": 0
-                }
-            ]
+          "id": 4998090,
+          "statement1": "I've done uni in 7 years",
+          "voteNumber": 0
         },
         {
-            "id": 2,
-            "avatar": "../assets/images/gamer.png",
-            "name": "Bob",
-            "statements": [
-                {
-                    "id": 4,
-                    "statement1": "I can speak three languages.",
-                    "vote": 0
-                },
-                {
-                    "id": 5,
-                    "statement2": "I have run a marathon.",
-                    "vote": 0
-                },
-                {
-                    "id": 6,
-                    "statement3": "I have never been on a plane.",
-                    "vote": 0
-                }
-            ]
+          "id": 4998091,
+          "statement2": "I've done a 7days hike in a remote place",
+          "voteNumber": 0
         },
         {
-            "id": 3,
-            "avatar": "../assets/images/gamer.png",
-            "name": "Charlie",
-            "statements": [
-                {
-                    "id": 7,
-                    "statement1": "I have lived in five different countries.",
-                    "vote": 0
-                },
-                {
-                    "id": 8,
-                    "statement2": "I can play the guitar.",
-                    "vote": 0
-                },
-                {
-                    "id": 9,
-                    "statement3": "I have won a cooking competition.",
-                    "vote": 0
-                }
-            ]
+          "id": 4998092,
+          "statement3": "I've never broken my leg",
+          "voteNumber": 0
         }
-    ]
+      ],
+      "id": 499809
+    },
+    {
+      "avatar": {
+        "Avatar": "/src/assets/image3.png"
+      },
+      "name": "Haijing",
+      "statements": [
+        {
+          "id": 3626110,
+          "statement1": "My favourite color is red",
+          "voteNumber": 0
+        },
+        {
+          "id": 3626111,
+          "statement2": "I have lived in 3 countries before",
+          "voteNumber": 0
+        },
+        {
+          "id": 3626112,
+          "statement3": "I have visited more than 10 countries",
+          "voteNumber": 0
+        }
+      ],
+      "id": 362611
+    },
+    {
+      "avatar": {
+        "Avatar": "/src/assets/image3.png"
+      },
+      "name": "Leevon",
+      "statements": [
+        {
+          "id": 7632470,
+          "statement1": "Never been to Europe",
+          "voteNumber": 0
+        },
+        {
+          "id": 7632471,
+          "statement2": "I live downtown in Vancouver",
+          "voteNumber": 0
+        },
+        {
+          "id": 7632472,
+          "statement3": "I play the trumpet",
+          "voteNumber": 0
+        }
+      ],
+      "id": 763247
+    }
+  ]
 }
